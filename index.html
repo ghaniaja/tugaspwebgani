@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Rumah Makan</title>
+    <link rel="stylesheet" href="guy.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #b5d405;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #e90303;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #f0cc03;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        h2 {
+            color: #85a90d;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        form {
+            display: inline;
+        }
+        input[type="number"] {
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rumah Makan Minang</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#lokasi">Lokasi</a></li>
+            <li><a href="#review">Review</a></li>
+            <!-- Add a link to index.html -->
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+    <section id="menu">
+        <h2>Menu Makanan</h2>
+        <ul>
+            <li>Dendeng - Rp 17.000</li>
+            <li>Ayam Goreng - Rp 12.000</li>
+            <li>Kepala Kakap - Rp 25.000</li>
+            <li>Rendang - Rp 15.000</li>
+            <!-- Other menu items -->
+        </ul>
+        <h2>Menu Minuman</h2>
+        <li>Air Mineral - Rp 3.000</li>
+        <li>Teh Manis - Rp 5.000</li>
+        <li>Teh Anget - Rp 4.000</li>
+        <li>Es Jeruk - Rp 8.000</li>
+    </section>
+    <section id="order-method">
+        <h2>Pemesanan yang tersedia</h2>
+        <form action="ya.html" method="post">
+            <select name="order_method" id="order_method">
+                <option value="online">Go food</option>
+                <option value="telephone">Admin</option>
+                <option value="visit">Drive thru</option>
+            </select>
+            <input type="submit" value="Pesan Sekarang">
+        </form>
+    </section>
+    <section id="lokasi">
+        <!-- Your location section content here -->
+    </section>
+    <section id="kontak">
+        <!-- Your contact section content here -->
+    </section>
+</body>
+</html>
